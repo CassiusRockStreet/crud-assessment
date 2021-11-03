@@ -1,0 +1,32 @@
+.navbar{
+    margin-bottom: 20px;
+}
+body{
+    margin:0px;
+    padding:0px;
+    overflow-x:hidden
+}
+.footer{
+    padding:30px 0px 5px 0px;
+    background:#ccc;
+    text-align: center;
+    margin-top:20px;
+}
+.headingTitle{
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(235, 233, 233);
+}
+.logincard {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 5px #ebebeb;
+    margin: 40px 0px;
+}
+@media screen and (max-width:768px){
+    .tableScroll {
+        width: max-content;
+        max-width: 100%;
+        overflow-x: scroll !important;
+    }
+}
